@@ -10,5 +10,5 @@ steps:
      from_secret: access_key
     secret_key: 
       from_secret: secret_key
-    source: test1.txt
+    source: sample.txt
     target: /
