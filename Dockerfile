@@ -1,5 +1,5 @@
 FROM ubuntu
-ARG_DEBIAN FRONTEND=noninteractive
+ARG DEBIAN_FRONTEND=noninteractive
 RUN sudo apt update -y
 RUN sudo apt install apache2 -y
 EXPOSE 80
