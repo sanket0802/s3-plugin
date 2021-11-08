@@ -11,15 +11,4 @@ steps:
       from_secret: secret_key 
     repo: 301032990450.dkr.ecr.us-east-1.amazonaws.com/sample-repo
     registry: 301032990450.dkr.ecr.us-east-1.amazonaws.com
-- name: ssh commands
-  image: appleboy/drone-ssh
-  settings:
-    host: 52.91.230.185
-    username: ubuntu
-    password: 
-      from_secret: ssh_key
-    port: 22
-    script:
-      - echo hello
-      - echo world
-      
+
